@@ -1,0 +1,319 @@
+/******************* CDN *************/
+@font-face {font-family: 'GangwonEdu_OTFBoldA';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff'); font-weight: normal; font-style: normal;}
+/********** common *******************/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+.inner {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    font-family: 'Ultra', serif;
+    overflow: hidden;
+}
+.left {
+    width: 600px;
+    float: left;
+}
+.right {
+    width: 600px;
+    float: right;
+}
+div h2 {
+    margin-top: 260px;
+    font-size: 56px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+}
+div p {
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.main {
+    width: 100%;
+    height: 800px;
+    background-color: #f5b468;
+    text-align: center;
+}
+.main > .inner > div {margin-top: 200px; opacity: 0;}
+
+.main div h2 {
+    text-align: right;
+    margin-right: 60px;
+}
+.main div p {
+    text-align: right;
+    margin-right: 60px;
+}
+
+div img {margin-top: 74px;}
+
+.iphone_white {
+    width: 280px;
+    height: 571px;
+    background: url(../images/iphone_white.png) center 0 no-repeat;
+    float: left;
+    margin-top: 120px;
+}
+.iphone_black {
+    width: 280px;
+    height: 571px;
+    background: url(../images/iphone_black.png) center 0 no-repeat;
+    float: right;
+    margin-top: 120px;
+}
+
+/********** SECTION 1 **********/
+.sec01 {
+    width: 100%;
+    height: 800px;
+}
+.sec01 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec01 .inner::after {
+    content:'01';
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec01 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 70px;
+}
+.sec01 div .iphone_black {
+    margin: auto;
+    margin-top: 120px;
+    float: none;
+    text-align: center;
+}
+/********** SECTION 2 **********/
+.sec02 {
+    width: 100%;
+    height: 800px;
+    background-color: #f5b468;
+}
+.sec02 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec02 .inner::after {
+    content:'02';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec02 div {text-align: right;}
+
+.sec02 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    right: 0;
+    top: 70px;
+}
+.sec02 .iphone_black {
+    margin: auto;
+    margin-top: 120px;
+    float: none;
+    text-align: center;
+}
+/********** SECTION 3 **********/
+.sec03 {
+    width: 100%;
+    height: 800px;
+}
+.sec03 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec03 .left {text-align: center;}
+
+.sec03 .inner::after {
+    content:'03';
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec03 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 70px;
+}
+.sec03 h2 {
+    text-align: left;
+    margin-left: 60px;
+}
+.sec03 p {
+    text-align: left;
+    margin-left: 60px;
+}
+/********** SECTION 4 **********/
+.sec04 {
+    width: 100%;
+    height: 800px;
+    background-color: #f5b468;
+}
+.sec04 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec04 .inner::after {
+    content:'04';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec04 div {text-align: center;}
+
+.sec04 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    right: 0;
+    top: 70px;
+}
+.sec04 h2 {
+    text-align: right;
+    margin-right: 60px;
+}
+.sec04 p {
+    text-align: right;
+    margin-right: 60px;
+}
+/********** SECTION 5 **********/
+.sec05 {
+    width: 100%;
+    height: 800px;
+}
+.sec05 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec05 .left {text-align: center;}
+
+.sec05 .inner::after {
+    content:'05';
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec05 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 70px;
+}
+.sec05 h2 {
+    text-align: left;
+    margin-left: 60px;
+}
+.sec05 p {
+    text-align: left;
+    margin-left: 60px;
+}
+/********** SECTION 6 **********/
+.sec06 {
+    width: 100%;
+    height: 800px;
+    background-color: #f5b468;
+}
+.sec06 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec06 .inner::after {
+    content:'06';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec06 div {text-align: right;}
+
+.sec06 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    right: 0;
+    top: 70px;
+}
+.sec06 h2 {margin-right: 60px;}
+
+.sec06 p {margin-right: 60px;}
+
+.sec06 .iphone_black {
+    margin: auto;
+    margin-top: 120px;
+    float: none;
+    text-align: center;
+}
+/********** SECTION 7 **********/
+.sec07 {
+    width: 100%;
+    height: 800px;
+}
+.sec07 > .inner > div {margin-top: 200px; opacity: 0;}
+
+.sec07 .inner::after {
+    content:'07';
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 120px;
+    color: #925a45;
+    opacity: 0.3;
+}
+.sec07 h2::after {
+    width: 50%;
+    height: 3px;
+    background-color: #925a45;
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 70px;
+}
+.sec07 h2 {
+    text-align: left;
+    margin-left: 60px;
+}
+.sec07 p {
+    text-align: left;
+    margin-left: 60px;
+}
+.sec07 .iphone_black {
+    margin: auto;
+    margin-top: 120px;
+    float: none;
+    text-align: center;
+}
